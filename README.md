@@ -4,7 +4,8 @@
 
 This Python script scans all folders in current directory searching application.yml/yaml files. 
 
-When found, it will compare the application file to other application-*.yml/yaml files of specific Spring profiles.
+When found, the script will compare the application file to other application-*.yml/yaml files of specific Spring profiles.
+
 **The script will issue an error whenever a key in a Spring profile specific application file has the same value as in the principal application file, so it is a duplicate**.
 
 If given a parameter, the script will use it as the starting folder.
